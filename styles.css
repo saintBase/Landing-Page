@@ -1,0 +1,65 @@
+body {
+    font-family:Roboto, sans-serif;
+}
+
+/*dark background color (hero and footer)*/
+.dark {
+    background-color: #1F2937;
+}
+
+/* hero main text ('this website is awesome')*/
+.hero-text {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+/* hero secondary text, Header link text*/
+.hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* header logo text */
+.header-logo {
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: 600;
+}
+
+/* button color, call to action background color */
+.button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+#sign-up-button {
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+/* information header text */
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+/* quote section background color */
+.quote-bg {
+    background-color: #E5E7EB;
+}
+
+/* quote text */
+.quote-text {
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.sign-up {
+    background-color: #3882F6;
+}

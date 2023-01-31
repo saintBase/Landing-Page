@@ -1,65 +1,170 @@
 body {
-    font-family:Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100%;
+}
+
+p {
+  margin: 0;
 }
 
 /*dark background color (hero and footer)*/
 .dark {
-    background-color: #1F2937;
+  background-color: #1f2937;
 }
 
 /* hero main text ('this website is awesome')*/
 .hero-text {
-    font-size: 48px;
-    font-weight: 800;
-    color:#F9FAF8;
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
 }
 
 /* hero secondary text, Header link text*/
 .hero-second {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 /* header logo text */
 .header-logo {
-    font-size: 24px;
-    color:#F9FAF8;
-    font-weight: 600;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
 }
 
 /* button color, call to action background color */
 .button {
-    background-color: #3882F6;
-    border-radius: 10px;
-    border-width: 0;
+  background-color: #3882f6;
+  font-weight: bold;
+  border-radius: 10px;
+  border-width: 0;
+  width: 125px;
+  height: 35px;
 }
 
 #sign-up-button {
-    border-width: 2px;
-    border-color: white;
-    border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
 }
 
 /* information header text */
 .info-header {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  padding: 40px 0;
 }
 
 /* quote section background color */
 .quote-bg {
-    background-color: #E5E7EB;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 100px 25%;
+  max-width: auto;
 }
 
 /* quote text */
 .quote-text {
-    font-size: 36px;
-    font-weight:300;
-    font-style: italic;
-    color:#1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 12%;
+  align-items: center;
+}
+
+.left-links {
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.right-links {
+  display: flex;
+  gap: 25px;
+}
+
+.header {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  flex-wrap: wrap;
 }
 
 .sign-up {
-    background-color: #3882F6;
+  background-color: #3882f6;
+  margin: 75px auto;
+  max-width: 1000px;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border:0px solid white;
+}
+
+.sign-up-left {
+  flex: 5;
+}
+
+.sign-up-right {
+  flex: 1;
+}
+
+.img-container {
+  background-color: gray;
+  color: white;
+  flex: 1;
+  justify-content: center;
+  height: 100%;
+  /*background-image: url(images/french-bulldog-7514203_960_720.jpg);*/
+  }
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-img-section {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.random-img-section > div > p {
+  padding-top: 10px;
+  max-width: 150px;
+}
+
+.random-img {
+  min-width: 150px;
+  min-height: 150px;
+  border: 3px;
+  border-radius: 10px;
+  border-color: #3882f6;
+  border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }

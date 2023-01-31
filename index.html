@@ -6,37 +6,51 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="dark hero-second">
-      <p class="header-logo">Header Logo</p>
-      <a>header link one</a>
-      <a>header link two</a>
-      <a>header link three</a>
+    <div class="dark hero-second menu">
+      <div>
+        <p class="header-logo">Header Logo</p>
+      </div>
+      <div class="right-links">
+        <a>header link one</a>
+        <a>header link two</a>
+        <a>header link three</a>
+      </div>
     </div>
 
     <div class="content">
-      <div class="dark hero-second">
-        <p class="hero-text">This website is awesome</p>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <p>
+      <div class="dark hero-second menu header">
+        <div class="left-links">
+          <p class="hero-text">This website is awesome</p>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
           <button class="button hero-second">Sign up</button>
+        </div>
+        <div class="right-links img-container">
           <img src="" alt="this is a placeholder for an image" />
-        </p>
+        </div>
       </div>
 
       <div class="random-info">
         <p class="info-header">Some random information.</p>
-        <div class="random-img">
-          <img src="" alt="img 1" />
-          <p>this is some subtext under an illustration or image</p>
-          <img src="" alt="img 2" />
-          <p>this is some subtext under an illustration or image</p>
-          <img src="" alt="img 3" />
-          <p>this is some subtext under an illustration or image</p>
-          <img src="" alt="img 4" />
-          <p>this is some subtext under an illustration or image</p>
+        <div class="random-img-section">
+          <div>
+            <img src="" alt="img 1" class="random-img" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div>
+            <img src="" alt="img 2" class="random-img" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div>
+            <img src="" alt="img 3" class="random-img" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div>
+            <img src="" alt="img 4" class="random-img" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
         </div>
       </div>
 
@@ -46,19 +60,35 @@
           it's just filling up space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.
         </p>
-        <p style="font-weight: bold; font-style: normal; font-size: 24px">
+        <p
+          style="
+            font-weight: bold;
+            font-style: normal;
+            font-size: 24px;
+            align-self: flex-end;
+            padding-top: 15px;
+          "
+        >
           -Thor, God of Thunder
         </p>
       </div>
 
       <div class="sign-up hero-second">
-        <strong>Call to action! It's time!</strong>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button class="button hero-second" id="sign-up-button">Sign up</button>
+        <div class="sign-up-left">
+          <strong>Call to action! It's time!</strong>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <div class="sign-up-right">
+          <button class="button hero-second" id="sign-up-button">
+            Sign up
+          </button>
+        </div>
       </div>
     </div>
 
-    <div class="dark hero-second">
+    <div class="dark hero-second footer">
       <p>Copyright © The Odin Project 2021</p>
     </div>
   </body>
